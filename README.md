@@ -1,5 +1,9 @@
 # openWorkBenchesCli
 
+The workstation bootstrap, installer, terminal interface, prerequisite checks, and credential recovery engine.
+
+The current installer implementation is in [opensoft/workBenches](https://github.com/opensoft/workBenches). This triad establishes its destination; history-preserving extraction and path integration are the next migration step.
+
 The ASSEMBLY ROOT of the `openworkbenchescli` project — the repository you clone.
 It holds no product code of its own: it holds the manifest that says what this
 project IS, the two legs as submodules, and the pins that say which commit of
@@ -165,3 +169,8 @@ Everything under `scripts/`, plus `contracts/repository-naming.yaml` and
 `contracts/shape-pin.yaml`. Edit them upstream, not here — a local edit is
 reported as drift. `AGENTS.md` and `CLAUDE.md` have no row and are this
 project's own.
+
+
+## License
+
+Apache-2.0. Copyright 2026 OpenSoft. See [LICENSE](LICENSE) and [NOTICE](NOTICE).
