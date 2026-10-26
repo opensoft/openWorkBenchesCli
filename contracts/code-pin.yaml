@@ -21,7 +21,7 @@ leg_role: code
 source_repository: opensoft/openWorkBenchesCli-code
 submodule_path: "code"
 
-commit: "2a7d318c0b56cbb88b345b223f23b1028f59c2b4"
+commit: "56878de4916633d5570299ee78f3dece7e964a31"
 revision_kind: commit
 
 digest_algorithm: sha256
@@ -36,7 +36,7 @@ digest_algorithm: sha256
 # <oid>`, so a leg's own pin moving is drift too.
 digest_definition: sorted-ls-tree-r-v1
 digests:
-  tree_sha256: "1cc60aa3e042bc40c7ceb7c7247f813ad7fc42c90ab831ae4acfe074ce12e484"
+  tree_sha256: "2c363f93cf34f6f9de44210c7e95bd244d3fe9f46ffd1eb0ff6c0615cbbe7ade"
 
 verify_pin: scripts/validate-pins.py
 resync_runbook: "README.md#the-lockstep-invariant"
